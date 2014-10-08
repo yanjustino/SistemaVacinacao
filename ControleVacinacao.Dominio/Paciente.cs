@@ -22,7 +22,7 @@ namespace ControleVacinacao.Dominio
 
       public DateTime DataNascimento { get; set; }
 
-      [StringLength(1)]
+      [StringLength(2)]
       public string TipoSanguineo { get; set; }
 
       [StringLength(1)]
