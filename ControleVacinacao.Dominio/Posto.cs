@@ -15,6 +15,7 @@ namespace ControleVacinacao.Dominio
 
       [StringLength(50)]
       public string Nome { get; set; }
+
       [StringLength(7)]
       public string Tipo { get; set; }
 

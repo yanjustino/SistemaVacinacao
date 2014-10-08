@@ -12,6 +12,7 @@ namespace ControleVacinacao.Dominio
    public class Medico
    {
       public int Id { get; set; }
+
       [StringLength(80)]
       public string Nome { get; set; }
    }
